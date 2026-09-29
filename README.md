@@ -1,0 +1,1 @@
+Day 1 - Learning JS for Playwright automation
