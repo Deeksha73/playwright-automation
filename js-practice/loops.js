@@ -12,6 +12,10 @@ for(let i=0; i<arr.length;i++){
     console.log(arr[i]);
 }
 
+for(ele in arr){
+    console.log(arr[ele]);
+}
+
 const user = {
     name:"John Doe",
     age: 28,
