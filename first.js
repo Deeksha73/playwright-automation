@@ -1,0 +1,1 @@
+console.log("Day 1 - I am learning js for playwright framework!")
