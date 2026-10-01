@@ -28,6 +28,10 @@ console.log(animals); //[ 'dog', 'rabbit', 'elephant' ] It modifies the existing
 let num = [1,2,3,4,5]
 num.slice(1,4) //it includes the first index but skips the second index. It creates a new array. 
 console.log(num.slice(1,4));  //[ 2, 3, 4 ]
-
-
-
+// 7. Concat
+let animal = ["dog","elephant","cat","tiger","elephant","tiger"];
+let birds = ["crow","Pigeon"]
+console.log(animal.concat(birds)); // returns new array
+// 8. indexOf
+console.log(animal.indexOf("elephant")); // returns first occurrence index, if not present -1
+console.log(animal.indexOf("elephant", animal.indexOf("elephant")+1 )) //index of second elephant 
