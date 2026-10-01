@@ -35,3 +35,9 @@ console.log(animal.concat(birds)); // returns new array
 // 8. indexOf
 console.log(animal.indexOf("elephant")); // returns first occurrence index, if not present -1
 console.log(animal.indexOf("elephant", animal.indexOf("elephant")+1 )) //index of second elephant 
+// 9. includes
+console.log(animal.includes("dog"));
+// 10. forEach 
+animal.forEach(element => {
+    console.log(element);
+});
