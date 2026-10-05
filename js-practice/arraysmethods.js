@@ -31,10 +31,10 @@ console.log(result);
 
 // 3. reduce()
 let numb = [1,2,3,4,5] //15
-console.log(numb.reduce((acc,num)=>acc+num,0));
+console.log(numb.reduce((acc,num)=>{return acc+num},0));
 
 // max in the array
-let top = [20,1,403,14,90];
+let top = [20,1,43,14,90];
 let maximum = top.reduce((max,top)=>{
     if(top>max){
         max=top;
@@ -43,3 +43,5 @@ let maximum = top.reduce((max,top)=>{
 },top[0]);
 
 console.log(maximum);
+
+
