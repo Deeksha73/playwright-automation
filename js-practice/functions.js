@@ -35,4 +35,7 @@ function* generateNumbers(){
 console.log(generateNumbers().next().value);
 
 // 7. Anonymous function: -- no specific name
-
+const number = [1,2,3,4,5];
+console.log(number.map(function(e){
+    return e*e;
+}));
