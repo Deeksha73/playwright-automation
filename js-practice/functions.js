@@ -14,3 +14,25 @@ console.log(multiply(5,2));
 // 3. Arrow function expression : Anonymous function
 const divide = (t1,t2)=>t1/t2;
 console.log(divide(6,2));
+
+// 4. Function Constructor :
+const sub = new Function('a','b','return a-b;');
+console.log(sub(11,1));
+
+// 5. IIFE(immediately invoked function expression):
+(function(){
+    console.log("Server is up")
+})();
+
+// 6. Generator function
+// function* and yield
+function* generateNumbers(){
+    yield 1;
+    yield 2;
+    yield 3;
+    yield 4;
+}
+console.log(generateNumbers().next().value);
+
+// 7. Anonymous function: -- no specific name
+
